@@ -1,0 +1,64 @@
+https://www.programacionfacil.org/
+
+----- 
+
+1. carpeta del proyecto
+    /Desktop/proyectos_personales/python_django/tienda_videojuegos
+
+2. parado en la carpeta del proyecto, creo el entorno virtual
+    python -m venv env
+
+3. activo el entorno virtual
+    * CMD      -> env/Scripts/activate
+    * Git Bash -> source env/Scripts/activate 
+
+4. desactivar el entorno virtual
+    deactivate
+
+5. crear script para levantar el venv con un comando mas simple 
+    prompt CHAT para obtener el codigo del script
+        genera un archivo .bat para iniciar un entorno virtual python en la carpeta 'env'
+    
+    * CMD
+        5.1 -> cree el archivo venv.bat
+        5.2 -> le copie la configuracion que me tiro el chat 
+        5.3 -> comando para levantar el entorno virtual a partir de este script 
+            venv.bat
+    
+    * Git Bash
+        5.1 -> cree el archivo venv.sh
+        5.2 -> le copie la configuracion que me tiro el chat 
+        5.3 -> comando para levantar el entorno virtual a partir de este script 
+            source venv.sh
+
+6.1. comando para ver los paquetes instalados en mi venv 
+    pip list
+
+6.2. comando para ver los paquetes instalados en mi venv 
+    pip freeze
+
+7. con el venv activo, instalo el paquete requests usando el gestor de paquetes de py 'pip', para poder hacer peticiones http 
+    pip install requests
+    *** al descargar el paquete con el venv activo, el mismo se ha instalado dentro del venv, y no de manera global en el SO de mi PC
+
+8. con el venv activo, instalo django  
+    pip install django
+    *** al descargar el framework con el venv activo, el mismo se ha instalado dentro del venv, y no de manera global en el SO de mi PC
+
+9. comando para ver version instalada de django 
+    django-admin --version
+
+10. comando para crear el proyecto django dentro de la carpeta madre (project root) 
+    django-admin startproject tienda_videojuegos
+    *** este comado creo el la carpeta madre, la carpeta /tienda_videojuegos, y dentro la app principal (/tienda_videojuegos) vvv 
+
+    Desktop
+        /proyectos_personales
+            /python_django
+                /tienda_videojuegos         *** project root (creada manualmente)
+                    /tienda_videojuegos     *** carpeta del proyecto Django (creda con comando django)
+                        /tienda_videojuegos *** app principal
+
+11. comando para levantar el server de desarrollo 
+    python tienda_videojuegos/manage.py runserver 9000
+    *** si no especificamos el puerto, por default se ejecuta en el puerto 8000
