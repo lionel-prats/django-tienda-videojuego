@@ -79,3 +79,14 @@ Desktop
         python manage.py startapp catalogo
 
     *** chequear el scaffolding
+
+13. creo la app home (la app que servira para gestionar las paginas principales: index, 'acerca de', 'contacto', 'aviso legal', etc.)
+
+    13.1. desde la carpeta del proyecto Django (/tienda_videojuegos/tienda_videojuegos), tiro el comando vvv
+        python manage.py startapp home
+
+14. switchear entre el interprete html vanila y el html django en VSCode 
+    14.1. Ctrl. + Shift + p
+    14.2. buscar 'Change Language Mode'
+    14.3. buscar 'html'
+    14.4. switchear segun lo que necesite
