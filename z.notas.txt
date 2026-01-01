@@ -1,3 +1,9 @@
+1. curso 'Hola Mundo'                   -> /Desktop/cursos/curso-python-holamundo
+2. proyecto Django 'productly'          -> /Desktop/cursos/python-holamundo/productly
+3. proyecto Django 'tienda_videojuegos' -> /Desktop/proyectos_personales/python_django/tienda_videojuegos
+
+----- 
+
 https://www.programacionfacil.org/
 
 ----- 
@@ -9,7 +15,9 @@ Desktop
             /python_django
                 /tienda_videojuegos         *** project root (creada manualmente)
                     /tienda_videojuegos     *** carpeta del proyecto Django (creda con comando django)
-                        /catalogo           *** app custom
+                        /catalogo           *** app custom (creda con comando django)
+                        /home               *** app custom (creda con comando django)
+                        /static             *** carpeta para archivos estaticos (creada manualmente)
                         /tienda_videojuegos *** app principal
 
 ----- 
@@ -85,8 +93,15 @@ Desktop
     13.1. desde la carpeta del proyecto Django (/tienda_videojuegos/tienda_videojuegos), tiro el comando vvv
         python manage.py startapp home
 
+    *** chequear el scaffolding
+
 14. switchear entre el interprete html vanila y el html django en VSCode 
     14.1. Ctrl. + Shift + p
     14.2. buscar 'Change Language Mode'
     14.3. buscar 'html'
     14.4. switchear segun lo que necesite
+
+15. creo la carpeta para archivos estaticos del proyecto (ver scaffolding) + configuracion en tienda_videojuegos/tienda_videojuegos/settings.py
+
+
+*** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido
