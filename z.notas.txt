@@ -22,7 +22,7 @@ VISTO 14. 2:15:01 Cómo implementar modo claro/oscuro en Django con Bootstrap 5.
 VISTO 15. 2:30:03 Cambios globales y control de versiones en Django
 VISTO 16. 2:47:41 Crear un catálogo de productos dinámico con Django
 VISTO 17. 2:58:59 Utilizar bases de datos en un proyecto Django
-      18. 3:16:44 Cómo modificar modelos ya creados en Django
+VISTO 18. 3:16:44 Cómo modificar modelos ya creados en Django
       19. 3:24:10 Cómo funciona el administrador de Django
       20. 3:31:32 Paginación en Django para un catálogo de productos
       21. 3:48:16 Implementar un buscador con Django y queryset
@@ -174,5 +174,18 @@ para, por ejemplo, hacer un INSERT masivo en el modelo catalogo vvv
 
 21. extension VSCode para visualizar info de un aechivo db.sqlite3 -> SQLite Viewer
     
+22. creo una cuenta de superusuario 
+
+    python tienda_videojuegos/manage.py createsuperuser
+    admin
+    123456
+    
+    * un superusuario es una cuenta especial dentro del proyecto Django, con acceso completo al panel administrativo.
+    * con este usuario podemos gestionar cualquier app, modelos, configuraciones, etc.
+
+23. setear el idioma del administrador de Django vvv
+    tienda_videojuegos/tienda_videojuegos/settings.py
+        LANGUAGE_CODE = "es-arg"
+
 
 *** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido
