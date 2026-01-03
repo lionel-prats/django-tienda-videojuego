@@ -2,6 +2,37 @@
 1. path curso youTube    -> https://www.youtube.com/watch?v=UE3HkJ7A-Mo&t=21936s
 2. documentacion curso   -> https://www.programacionfacil.org/cursos/curso-de-django/
 
+SECCIONES 
+
+VISTO 00. 00:07 Introducción al curso
+VISTO 01. 01:19 Introducción al frontend y al backend
+VISTO 02. 07:52 ¿Qué son y cómo utilizar entornos virtuales?
+VISTO 03. 16:31 Los patrones de diseño MVC y MVT
+VISTO 04. 25:39 El protocolo HTTP
+VISTO 05. 29:21 HTTP y HTTPS - Biblioteca requests
+VISTO 06. 45:18 Las herramientas de desarrollo del navegador
+VISTO 07. 50:17 Git y GitHub para principiantes
+VISTO 08. 1:13:22 Crear un proyecto Django y ejecutar el servidor
+VISTO 09. 1:19:17 Estructura de un proyecto Django
+VISTO 10. 1:25:22 Crear una app Django y entender su propósito
+VISTO 11. 1:35:26 Cómo funcionan las vistas, urls y plantillas en una app Django
+VISTO 12. 1:50:48 Archivos estáticos en Django: cómo manejar CSS, JS e imágenes
+VISTO 13. 2:00:16 Cómo crear una plantilla base en Django y reutilizar contenido
+VISTO 14. 2:15:01 Cómo implementar modo claro/oscuro en Django con Bootstrap 5.3+
+      15. 2:30:03 Cambios globales y control de versiones en Django
+      16. 2:47:41 Crear un catálogo de productos dinámico con Django
+VISTO 17. 2:58:59 Utilizar bases de datos en un proyecto Django
+      18. 3:16:44 Cómo modificar modelos ya creados en Django
+      19. 3:24:10 Cómo funciona el administrador de Django
+      20. 3:31:32 Paginación en Django para un catálogo de productos
+      21. 3:48:16 Implementar un buscador con Django y queryset
+      22. 4:00:11 Crea una vista de detalle de productos de forma dinámica con Django
+      23. 4:12:06 Crea un sistema de usuarios en Django: Registro, login y perfil
+      24. 4:48:55 Construye un carrito de compras funcional en Django
+      25. 5:25:22 Sistema de notificaciones tipo toast
+      26. 5:33:10 Preparación del entorno de producción y despliegue de Django con PythonAnywhere y GitHub
+        6:18:11 FIN
+
 ----- 
 
 1. curso 'Hola Mundo'                   -> /Desktop/cursos/curso-python-holamundo
