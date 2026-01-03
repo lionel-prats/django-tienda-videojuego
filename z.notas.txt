@@ -21,7 +21,7 @@ VISTO 13. 2:00:16 Cómo crear una plantilla base en Django y reutilizar contenid
 VISTO 14. 2:15:01 Cómo implementar modo claro/oscuro en Django con Bootstrap 5.3+
 VISTO 15. 2:30:03 Cambios globales y control de versiones en Django
 VISTO 16. 2:47:41 Crear un catálogo de productos dinámico con Django
-      17. 2:58:59 Utilizar bases de datos en un proyecto Django
+VISTO 17. 2:58:59 Utilizar bases de datos en un proyecto Django
       18. 3:16:44 Cómo modificar modelos ya creados en Django
       19. 3:24:10 Cómo funciona el administrador de Django
       20. 3:31:32 Paginación en Django para un catálogo de productos
@@ -171,5 +171,8 @@ para, por ejemplo, hacer un INSERT masivo en el modelo catalogo vvv
 
         * ver archivo z.insert-sqlite1.py
         * ver archivo z.insert-sqlite2.py
+
+21. extension VSCode para visualizar info de un aechivo db.sqlite3 -> SQLite Viewer
+    
 
 *** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido
