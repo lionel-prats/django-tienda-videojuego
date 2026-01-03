@@ -1,7 +1,17 @@
 from django.shortcuts import render
-from .models import Juego
+from django.core.paginator import Paginator
+from catalogo.models import Juego
 
 def lista_juegos(request):
-    juegos = Juego.objects.all() # querySet del ORM de Django
-    contexto_catalogo_juegos = {'lista_juegos': juegos}
+    juegos = Juego.objects.all().order_by('id')  # mantenemos un orden consistente
+    paginator = Paginator(juegos,1)  # mostramos 6 juegos por página
+
+    # Obtenemos el número de página desde la URL (?page=2)
+    page_number = request.GET.get('page')
+
+    # Obtenemos los objetos de esa página
+    page_obj = paginator.get_page(page_number)
+
+    # Pasamos a la plantilla como 'lista_juegos'
+    contexto_catalogo_juegos = {'lista_juegos': page_obj}
     return render(request, 'catalogo/lista_juegos.html', contexto_catalogo_juegos)

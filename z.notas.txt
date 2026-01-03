@@ -23,8 +23,8 @@ VISTO 15. 2:30:03 Cambios globales y control de versiones en Django
 VISTO 16. 2:47:41 Crear un catálogo de productos dinámico con Django
 VISTO 17. 2:58:59 Utilizar bases de datos en un proyecto Django
 VISTO 18. 3:16:44 Cómo modificar modelos ya creados en Django
-      19. 3:24:10 Cómo funciona el administrador de Django
-      20. 3:31:32 Paginación en Django para un catálogo de productos
+VISTO 19. 3:24:10 Cómo funciona el administrador de Django
+VISTO 20. 3:31:32 Paginación en Django para un catálogo de productos
       21. 3:48:16 Implementar un buscador con Django y queryset
       22. 4:00:11 Crea una vista de detalle de productos de forma dinámica con Django
       23. 4:12:06 Crea un sistema de usuarios en Django: Registro, login y perfil
