@@ -31,7 +31,7 @@ VISTO 16. 2:47:41 Crear un catálogo de productos dinámico con Django
       24. 4:48:55 Construye un carrito de compras funcional en Django
       25. 5:25:22 Sistema de notificaciones tipo toast
       26. 5:33:10 Preparación del entorno de producción y despliegue de Django con PythonAnywhere y GitHub
-        6:18:11 FIN
+          6:18:11 FIN
 
 ----- 
 
@@ -140,5 +140,36 @@ Desktop
 15. 
     15.1. creé la carpeta para archivos estaticos del proyecto (ver scaffolding) 
     15.2. en settings.py, configuré el path global a esta carpeta (ver archivo)
+
+16. crear migraciones en las distintas apps segun los cambios en los archivos model.py de cada app  
+    python tienda_videojuegos/manage.py makemigrations
+
+17. ejecutar migraciones pendientes
+    python tienda_videojuegos/manage.py migrate
+
+18. acceso a la shell de Django
+    python tienda_videojuegos/manage.py shell
+
+19.1. salir de la shell de Django 
+    19.1. Ctrl. + z + ENTER
+    19.2. exit()
+
+20. desde la shell de Django puedo interactuar con la DB SQLite mediante el ORM de Django,
+para, por ejemplo, hacer un INSERT masivo en el modelo catalogo vvv 
+
+    - tenia estos datos vvv 
+    {'nombre': 'Dogo Racing', 'precio': 29.99, 'plataforma': 'PC, PS5, Xbox Series X'},
+    {'nombre': 'Platform', 'precio': 14.99, 'plataforma': 'PC, Switch'},
+    {'nombre': 'Urban Darkness', 'precio': 39.99, 'plataforma': 'PC, PS5'},
+    ... 
+
+    - le pido al chat que me los estructure de la manera correcta para poder hacer el INSERT masivo en el modelo Juego via shell de Django vvv
+        
+        "dame un codigo para el shell de Django que introduzca los siguientes datos en el modelo Juego"
+
+    - codigo devuelto por el chat vvv
+
+        * ver archivo z.insert-sqlite1.py
+        * ver archivo z.insert-sqlite2.py
 
 *** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido
