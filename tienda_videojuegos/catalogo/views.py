@@ -4,7 +4,7 @@ from catalogo.models import Juego
 
 def lista_juegos(request):
     juegos = Juego.objects.all().order_by('id')  # mantenemos un orden consistente
-    paginator = Paginator(juegos,1)  # mostramos 6 juegos por página
+    paginator = Paginator(juegos, 6)  # mostramos 6 juegos por página
 
     # Obtenemos el número de página desde la URL (?page=2)
     page_number = request.GET.get('page')

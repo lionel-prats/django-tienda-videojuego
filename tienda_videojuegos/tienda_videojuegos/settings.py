@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "buscador",
     "catalogo",
     # "catalogo.apps.CatalogoConfig",
     "home",
