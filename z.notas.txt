@@ -1,10 +1,12 @@
-1. curso 'Hola Mundo'                   -> /Desktop/cursos/curso-python-holamundo
-2. proyecto Django 'productly'          -> /Desktop/cursos/python-holamundo/productly
-3. proyecto Django 'tienda_videojuegos' -> /Desktop/proyectos_personales/python_django/tienda_videojuegos
+0. web creador del curso -> https://www.programacionfacil.org/
+1. path curso youTube    -> https://www.youtube.com/watch?v=UE3HkJ7A-Mo&t=21936s
+2. documentacion curso   -> https://www.programacionfacil.org/cursos/curso-de-django/
 
 ----- 
 
-https://www.programacionfacil.org/
+1. curso 'Hola Mundo'                   -> /Desktop/cursos/curso-python-holamundo
+2. proyecto Django 'productly'          -> /Desktop/cursos/python-holamundo/productly
+3. proyecto Django 'tienda_videojuegos' -> /Desktop/proyectos_personales/python_django/tienda_videojuegos
 
 ----- 
 
@@ -50,6 +52,8 @@ Desktop
         5.2 -> le copie la configuracion que me tiro el chat 
         5.3 -> comando para levantar el entorno virtual a partir de este script 
             source venv.sh
+        
+    * tags = levantar venv levantar entorno virtual subir venv subir entorno virtual prender venv prender entorno virtual
 
 6.1. comando para ver los paquetes instalados en mi venv 
     pip list
@@ -101,7 +105,8 @@ Desktop
     14.3. buscar 'html'
     14.4. switchear segun lo que necesite
 
-15. creo la carpeta para archivos estaticos del proyecto (ver scaffolding) + configuracion en tienda_videojuegos/tienda_videojuegos/settings.py
-
+15. 
+    15.1. creé la carpeta para archivos estaticos del proyecto (ver scaffolding) 
+    15.2. en settings.py, configuré el path global a esta carpeta (ver archivo)
 
 *** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido

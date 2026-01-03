@@ -57,7 +57,9 @@ ROOT_URLCONF = "tienda_videojuegos.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            BASE_DIR / 'templates' # path plantillas html base (tienda_videojuegos/tienda_videojuegos/templates/)
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -119,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATICFILES_DIRS = [
-    BASE_DIR / 'static' # path archivos estaticos del proyecto
+    BASE_DIR / 'static' # path archivos estaticos del proyecto (tienda_videojuegos/tienda_videojuegos/static/)
 ] 
 
 # Default primary key field type

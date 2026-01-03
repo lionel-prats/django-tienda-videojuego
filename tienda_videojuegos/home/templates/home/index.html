@@ -1,26 +1,17 @@
+{% extends "base.html" %}
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Videojuegos</title>
+{% block title %}Tienda de Videojuegos - Inicio{% endblock %}
 
-    <!-- Bootstrap CSS & JS desde CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-light">Bienvenido a la Tienda de Videojuegos</h1>
+    <p class="text-light">Explora nuestro catálogo y disfruta de las mejores ofertas.</p>
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="{% static 'js/script.js' %}"></script>
-</head>
-<body>
-    <h1>Bienvenido a la Tienda de Videojuegos</h1>
-    <p>Explora nuestro catálogo y disfruta</p>
-    <img src="{% static 'img/logo.png' %}" alt="logo">
-    <footer>
-        <p>@ 2025 Tienda de Videojuegos</p>
-        <a href="{% url 'contacto' %}">Contacto</a>
-    </footer>
-</body>
-</html>
+    <img src="{% static 'img/logo.png' %}" alt="Logo" class="img-fluid my-4">
+
+    <div class="alert alert-primary">¡Nueva colección de videojuegos disponible esta semana!</div>
+    <div class="alert alert-warning">Recuerda revisar las restricciones de edad para algunos títulos.</div>
+    <div class="alert alert-danger">Algunos productos tienen stock limitado, ¡apresúrate!</div>
+</div>
+{% endblock %}
