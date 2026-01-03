@@ -19,9 +19,9 @@ VISTO 11. 1:35:26 Cómo funcionan las vistas, urls y plantillas en una app Djang
 VISTO 12. 1:50:48 Archivos estáticos en Django: cómo manejar CSS, JS e imágenes
 VISTO 13. 2:00:16 Cómo crear una plantilla base en Django y reutilizar contenido
 VISTO 14. 2:15:01 Cómo implementar modo claro/oscuro en Django con Bootstrap 5.3+
-      15. 2:30:03 Cambios globales y control de versiones en Django
+VISTO 15. 2:30:03 Cambios globales y control de versiones en Django
       16. 2:47:41 Crear un catálogo de productos dinámico con Django
-VISTO 17. 2:58:59 Utilizar bases de datos en un proyecto Django
+      17. 2:58:59 Utilizar bases de datos en un proyecto Django
       18. 3:16:44 Cómo modificar modelos ya creados en Django
       19. 3:24:10 Cómo funciona el administrador de Django
       20. 3:31:32 Paginación en Django para un catálogo de productos
@@ -51,6 +51,7 @@ Desktop
                         /catalogo           *** app custom (creda con comando django)
                         /home               *** app custom (creda con comando django)
                         /static             *** carpeta para archivos estaticos (creada manualmente)
+                        /templates          *** carpeta para plantillas html base (creada manualmente)
                         /tienda_videojuegos *** app principal
 
 ----- 
