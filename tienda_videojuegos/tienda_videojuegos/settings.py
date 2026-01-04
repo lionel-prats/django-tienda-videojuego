@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "catalogo",
     # "catalogo.apps.CatalogoConfig",
     "home",
+    "usuarios",
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,10 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# settings para la app usuarios (4:14:52)
+AUTH_USER_MODEL = "usuarios.Usuario" # esta variable la seteamos si queremos usar un modelo de nombre != 'User' ('User' es el nombre de modelo por default que espera Django)
+LOGIN_URL = "login"
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "login"
+# FIN settings para la app usuarios (4:14:52)
