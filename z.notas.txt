@@ -187,5 +187,4 @@ para, por ejemplo, hacer un INSERT masivo en el modelo catalogo vvv
     tienda_videojuegos/tienda_videojuegos/settings.py
         LANGUAGE_CODE = "es-arg"
 
-
-*** continuar desde 2:00:16 -> Cómo crear una plantilla base en Django y reutilizar contenido
+*** continuar desde 4:00:11 -> Crea una vista de detalle de productos de forma dinámica con Django

@@ -1,0 +1,95 @@
+[33mcommit a167a0a96e7d5b8ebb6aa6a8f4c11e266ca565fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdesarrollo[m[33m, [m[1;31morigin/desarrollo[m[33m)[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 20:56:19 2026 -0300
+
+    Implementar un buscador con Django y queryset2
+
+[33mcommit f2d96dd2a1915e85290ef2ebfb5ae748fcbf0562[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 20:56:05 2026 -0300
+
+    Implementar un buscador con Django y queryset
+
+[33mcommit 79e0171aded3300fac709da02a5d2e8db47d6f0a[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 20:10:25 2026 -0300
+
+    Paginación en Django para un catálogo de productos
+
+[33mcommit 3e43622e9018b5be3d900d4a899c15d4f339e934[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 17:12:21 2026 -0300
+
+    Cómo funciona el administrador de Django
+
+[33mcommit e4e9e1037fe30840ed4ec1992e0b41eed1018b31[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 16:36:22 2026 -0300
+
+    Cómo modificar modelos ya creados en Django
+
+[33mcommit 1e007074aa45ea911cce32399d731dc95cc57846[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 16:00:12 2026 -0300
+
+    Utilizar bases de datos en un proyecto Django
+
+[33mcommit dbf4d8876b356dbe01eb9117b033560b2ab6b21c[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 14:48:29 2026 -0300
+
+    Crear un catálogo de productos dinámico con Django
+
+[33mcommit e6e86def1459757c2933826e45344b67833830e4[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 14:20:41 2026 -0300
+
+    Cambios globales y control de versiones en Django
+
+[33mcommit 3cd34b67030838a542b723c4359de433f00e926b[m[33m ([m[1;32mtest[m[33m)[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 14:12:47 2026 -0300
+
+    commit de prueba
+
+[33mcommit 649160c1ff6a3ebc8b0b53c4adaa709d1f41dbdb[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 13:32:05 2026 -0300
+
+    Cómo implementar modo claro/oscuro en Django con Bootstrap 5.3+
+
+[33mcommit 63f13f2c1c0751bb573e790788d7c36840a90d49[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Sat Jan 3 13:10:49 2026 -0300
+
+    Cómo crear una plantilla base en Django y reutilizar contenido
+
+[33mcommit c7bff9194273c80801f05bdeacd5b590c350c2bf[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Wed Dec 31 22:14:10 2025 -0300
+
+    Archivos estáticos en Django: cómo manejar CSS, JS e imágenes
+
+[33mcommit 67a24804ee589e63d215ba936cc04a5498d48191[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Wed Dec 31 03:28:30 2025 -0300
+
+    deploy / y contacto/
+
+[33mcommit 4b9334300ff24967692a36b266f38b7e19b5c980[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Wed Dec 31 02:50:22 2025 -0300
+
+    update z.notas.txt
+
+[33mcommit 62e3c3e52be4dbc31025d7610b5df30dc4fd9b37[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Wed Dec 31 02:48:46 2025 -0300
+
+    add app catalogo
+
+[33mcommit 504fcce2625b4881f9de8e3a68aaf72735b7c2e7[m
+Author: lionel-prats <lionel.prats.c@gmail.com>
+Date:   Wed Dec 31 02:22:05 2025 -0300
+
+    30/12/25, commit #1
