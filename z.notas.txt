@@ -48,6 +48,7 @@ Desktop
             /python_django
                 /tienda_videojuegos         *** project root (creada manualmente)
                     /tienda_videojuegos     *** carpeta del proyecto Django (creda con comando django)
+                        /buscador           *** app custom (creda con comando django)
                         /catalogo           *** app custom (creda con comando django)
                         /home               *** app custom (creda con comando django)
                         /static             *** carpeta para archivos estaticos (creada manualmente)
